@@ -10,7 +10,7 @@ Site estático (HTML e CSS puros). Não tem build: o que está no repositório �
 index.html        landing page
 assets/
   css/styles.css
-  img/            logo e favicon
+  img/            logo, favicon e imagem de compartilhamento (og-casatica.jpg)
 ```
 
 ## Contatos usados na página
@@ -25,3 +25,7 @@ assets/
 1. Em vercel.com: **Add New… → Project** e importe este repositório.
 2. **Framework Preset:** Other. **Build Command** e **Output Directory:** em branco.
 3. **Deploy.** Cada commit na branch principal publica de novo.
+
+## Endereço
+
+https://casatica-two.vercel.app/ (também em `index.html`: canonical, og:url e og:image)
